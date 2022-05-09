@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d8836659925e54fb89b65c91252269, type: 3}
+  m_Name: HillsAndLakes
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 37f3ca705b2978646ae1dc2bfd8f784b, type: 3}
+    startHeight: 0
+    textureScale: 0.05
+  - texture: {fileID: 2800000, guid: f738ffc21c81fe34b883fbdc76569cbf, type: 3}
+    startHeight: 0.3
+    textureScale: 0.2
+  - texture: {fileID: 2800000, guid: 883e24a2641de6348bebbfeba5eca538, type: 3}
+    startHeight: 1
+    textureScale: 0.2
+  - texture: {fileID: 2800000, guid: 56e8fac3655ee524e8b12f548423416e, type: 3}
+    startHeight: 10
+    textureScale: 0.05
+  - texture: {fileID: 2800000, guid: eea6ab11c81f6484ea65fdad244617d8, type: 3}
+    startHeight: 55
+    textureScale: 0.05

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d8836659925e54fb89b65c91252269, type: 3}
+  m_Name: planetTexture
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  layers:
+  - texture: {fileID: 2800000, guid: 93f2de7c43ec2d0459fbcbe50831b7f9, type: 3}
+    startHeight: -10
+    textureScale: 0.2
+  - texture: {fileID: 2800000, guid: dc2da1768bc0320479135437a1ba5d29, type: 3}
+    startHeight: 0
+    textureScale: 0.01
+  - texture: {fileID: 2800000, guid: 57402bf37960a1d40af6d3445e34968c, type: 3}
+    startHeight: 0.1
+    textureScale: 0.1
+  - texture: {fileID: 2800000, guid: 16305b795c4ceb244860402df37cf47c, type: 3}
+    startHeight: 0.5
+    textureScale: 0.2
+  - texture: {fileID: 2800000, guid: 77ad50c60694d9b439d3fcd1204b3493, type: 3}
+    startHeight: 15
+    textureScale: 0.1
